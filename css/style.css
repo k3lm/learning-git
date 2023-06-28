@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 50%;
+  margin: 80px auto;
+  padding: 10px 20px;
+  background-color: rgb(253, 242, 227);
+  border-radius: 10px;
+  box-shadow: 4px 6px 10px rgb(153, 153, 153);
+  transition: all 1s;
+}
+
+.container:hover {
+  transform: scale(1.2);
+}
+
+.container p:first-of-type {
+  margin: -15px 0 25px;
+}
+
+.emphasis {
+  font-style: italic;
+}
+
+p {
+  text-align: justify;
+}
